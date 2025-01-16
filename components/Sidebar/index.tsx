@@ -10,7 +10,7 @@ const Sidebar = () => {
   return (
     <aside className="w-[280px] bg-[#0B2447] text-white p-6 flex flex-col h-full  md:block">
       <div className="flex items-center gap-3 mb-12">
-        <div className="w-8 h-8 bg-[#4ade80] rounded-lg grid place-items-center">
+        <div className="w-8 h-8 bg-green-light rounded-lg grid place-items-center">
           <span className="text-xl font-bold">c</span>
         </div>
         <span className="font-semibold text-lg">Cedurs</span>
@@ -19,7 +19,7 @@ const Sidebar = () => {
       <div className="mb-8">
         <p className="text-xs text-gray-400 mb-4 px-4">MENU</p>
         <nav className="space-y-2">
-          <button className="flex items-center gap-3 text-[#4ade80] bg-[#1c3a61] w-full px-4 py-2.5 rounded-lg">
+          <button className="flex items-center gap-3 text-green-light bg-[#1c3a61] w-full px-4 py-2.5 rounded-lg">
             <div className="grid place-items-center w-5 h-5">
               <svg
                 width="20"
@@ -80,7 +80,7 @@ const Sidebar = () => {
               <MessageSquare size={20} />
               <span>Messages</span>
             </div>
-            <span className="bg-[#4ade80] text-white text-xs px-2 py-0.5 rounded-full">
+            <span className="bg-green-light text-white text-xs px-2 py-0.5 rounded-full">
               14
             </span>
           </button>

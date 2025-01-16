@@ -119,9 +119,9 @@ const ExpensesBreakdown = () => {
 
   return (
     <div className="bg-white p-3 md:p-6 rounded-2xl border mt-6">
-      <div className="flex justify-between items-center mb-6">
-        <h3 className="font-medium">Répartition des dépenses (CAPEX/OPEX)</h3>
-      </div>
+      <h3 className="font-medium mb-6">
+        Répartition des dépenses (CAPEX/OPEX)
+      </h3>
 
       <ChartContainer
         config={chartConfig}

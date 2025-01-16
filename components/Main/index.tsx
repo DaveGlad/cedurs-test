@@ -18,21 +18,17 @@ function Main() {
           </div>
         </div>
 
-        {/* Grille responsive */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-12 gap-6">
-          {/* Colonne pour StrategyResults */}
           <div className="col-span-1 md:col-span-8">
             <StrategyResults />
           </div>
 
-          {/* Colonne pour Compliance et BudgetBreakdown */}
           <div className="col-span-1 sm:col-span-2 md:col-span-4">
             <Compliance />
             <BudgetBreakdown />
           </div>
         </div>
 
-        {/* Autres sections */}
         <ExpensesBreakdown />
         <DecarbonationTrajectory />
         <ActionPlan />
