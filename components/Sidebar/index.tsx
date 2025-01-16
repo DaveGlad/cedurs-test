@@ -8,12 +8,12 @@ import {
 
 const Sidebar = () => {
   return (
-    <aside className="w-[280px] bg-[#0B2447] text-white p-6 flex flex-col  md:block">
+    <aside className="w-[280px] bg-[#0B2447] text-white p-6 flex flex-col h-full  md:block">
       <div className="flex items-center gap-3 mb-12">
         <div className="w-8 h-8 bg-[#4ade80] rounded-lg grid place-items-center">
-          <span className="text-lg">S</span>
+          <span className="text-xl font-bold">c</span>
         </div>
-        <span className="font-semibold text-lg">Siohioma</span>
+        <span className="font-semibold text-lg">Cedurs</span>
       </div>
 
       <div className="mb-8">
@@ -113,16 +113,6 @@ const Sidebar = () => {
             <span>Security</span>
           </button>
         </nav>
-      </div>
-
-      <div className="mt-auto pt-8">
-        <div className="flex items-center gap-3 px-4">
-          <div className="w-10 h-10 rounded-full bg-gray-300"></div>
-          <div>
-            <p className="font-medium">Ferdianus Puro</p>
-            <p className="text-sm text-gray-400">@ferdianus@gmail.com</p>
-          </div>
-        </div>
       </div>
     </aside>
   );
