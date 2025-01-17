@@ -118,7 +118,7 @@ const ExpensesBreakdown = () => {
   const [activeChart] = React.useState<keyof typeof chartConfig>("desktop");
 
   return (
-    <div className="bg-white p-3 md:p-6 rounded-2xl border mt-6">
+    <div className="bg-white p-3 md:p-6 md:py-8 rounded-2xl border ">
       <h3 className="font-medium mb-6">
         Répartition des dépenses (CAPEX/OPEX)
       </h3>
